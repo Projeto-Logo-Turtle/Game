@@ -57,8 +57,9 @@ options:
     switch (indicador)
     {
     case '1':
-        //printf("chamou");
+        system("cls");
         chama_game();
+
         break;
     case '2':
         //about();
