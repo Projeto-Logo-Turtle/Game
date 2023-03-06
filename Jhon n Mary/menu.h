@@ -2,11 +2,11 @@
 #define MENU_H_INCLUDED
 
 ///definitions
-
+#define largura 100
 ///signatures
-chama_menu();
-teste_matriz();
-
+void chama_menu();
+void deadline();
+void switch_menu();
 
 #endif // MENU_H_INCLUDED
 
