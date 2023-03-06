@@ -1,0 +1,9 @@
+
+
+#ifndef RECURSOS_RC
+#define RECURSOS_RC
+
+MAIN ICON "Jhon n Mary.ico"
+
+#endif
+
