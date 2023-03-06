@@ -3,6 +3,7 @@
 
 int main()
 {
-    printf("Gott mit uns");
+    printf("\n\n\t\tGott mit uns\n\n");
+    system("pause");
     return 0;
 }
