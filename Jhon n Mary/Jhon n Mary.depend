@@ -1,5 +1,19 @@
 # depslib dependency file v1.0
-1678122591 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\main.c
+1678131386 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\main.c
 	<stdio.h>
 	<stdlib.h>
+	"menu.h"
+
+1678122720 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\recursos.rc
+
+1678141780 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\menu.c
+	<conio.h>
+	"menu.h"
+
+1678137062 c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\menu.h
+
+1678143676 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\jogo.c
+	<conio.h>
+	<windows.h>
+	<time.h>
 
