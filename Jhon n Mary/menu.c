@@ -24,10 +24,10 @@ void chama_menu()
 void design()//declara-la sem retorno para não retornar 0, valores descartados em valor ou ponteiros genéricos¹
 {
     deadline();
-    printf("\n\n\t\t\t\t\tBem-vindo ao Logo Trutle!\n\n");
+    printf("\n\n\t\t\t\t\tBem-vindo ao Jhon n Mary\n\n");
     printf("\t\t\t1. Iniciar Jogo\n");
-    printf("\t\t\t2. About\n");
-    printf("\t\t\t3. Exit\n\n");
+    printf("\t\t\t2. Ranking\n");
+    printf("\t\t\t3. About\n\n");
     deadline();
 }
 

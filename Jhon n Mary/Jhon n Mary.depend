@@ -18,16 +18,17 @@
 	<time.h>
 	"mechanics.h"
 
-1678163980 c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\mechanics.h
+1678165015 c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\mechanics.h
 
 1678139097 c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\jogo.h
 
-1678164143 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\mechanics.c
+1678165486 source:c:\users\vinij\onedrive\햞ea de trabalho\1st-ee lpi 2023.1\game\jhon n mary\mechanics.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	<windows.h>
 	<conio.h>
+	<iso646.h>
 	"jogo.h"
 	"mechanics.h"
 
