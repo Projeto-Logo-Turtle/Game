@@ -4,8 +4,8 @@
 #include <time.h>
 ///a
 ///d
-#define largura 100
 #define altura 50
+#define largura 100
 
 ///s
 
@@ -23,7 +23,7 @@ system("pause");
  void chama_game()
 {
     ///Variables
-    char canva[largura][altura];
+    char canva[altura][largura];
 
     ///Code
     system("cls");
@@ -39,7 +39,7 @@ system("pause");
 
 //I_G = Identificador_Generico
 
-void primeira_chamada(char I_G[largura][altura]){
+void primeira_chamada(char I_G[altura][largura]){
 
     board(I_G);
     primeira_position(I_G);
@@ -48,18 +48,18 @@ void primeira_chamada(char I_G[largura][altura]){
 }
 
 
-int board(char I_G[largura][altura]) {
+int board(char I_G[altura][largura]) {
 
-    for (int i = 0; i < altura; i++) {
+    for (int i = 0; i < largura; i++) {
         I_G[0][i] = '#';
-        I_G[largura-1][i] = '#';
+        I_G[altura-1][i] = '#';
     }
 
 
-    for (int i = 1; i < largura-1; i++) {
+    for (int i = 1; i < altura-1; i++) {
         I_G[i][0] = '#';
-        I_G[i][altura-1] = '#';
-        for (int j = 1; j < altura-1; j++) {
+        I_G[i][largura-1] = '#';
+        for (int j = 1; j < largura-1; j++) {
             I_G[i][j] = ' ';
         }
     }
@@ -68,23 +68,23 @@ int board(char I_G[largura][altura]) {
 }
 
 
-void primeira_position(char I_G[largura][altura])// so será usada 1 vez
+void primeira_position(char I_G[altura][largura])// so será usada 1 vez
 {
 
-    I_G[largura/2][altura/2] = 1;
+    I_G[altura/2][largura/2] = 1;
 }
 
 
-void imprimir_tabuleiro(char I_G[largura][altura]) {
-    for (int i = 0; i < largura; i++) {
-        for (int j = 0; j < altura; j++) {
+void imprimir_tabuleiro(char I_G[altura][largura]) {
+    for (int i = 0; i < altura; i++) {
+        for (int j = 0; j < largura; j++) {
             printf("%c", I_G[i][j]);
         }
         printf("\n");
     }
 }
 
-int chama_print_tabu(char I_G[largura][altura]) {
+int chama_print_tabu(char I_G[altura][largura]) {
     board(I_G);
     imprimir_tabuleiro(I_G);
     return 0;
