@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <time.h>
 ///a
+#include "mechanics.h"
 ///d
 #define altura 50
 #define largura 100
@@ -31,7 +32,8 @@ system("pause");
 
     ///Calls
     primeira_chamada(canva);
-    sleep(2);
+    chama_mecha();
+
 
 }
 
