@@ -3,10 +3,8 @@
 
 
 
-#define altura 50
-#define largura 100
-
 void chama_mecha();
-void coord_random(int *y_rand, int *x_rand);
+void print_mary(int *y_rand, int *x_rand);
+void print_jhon(int *y_jhon, int *x_jhon);
 void gotoxy(int x, int y);
 #endif // MECHANICS_H_INCLUDED

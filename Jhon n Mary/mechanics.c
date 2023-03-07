@@ -8,18 +8,47 @@
 #include "jogo.h"
 #include "mechanics.h"
 ///d
-
+#define altura 50
+#define largura 100
 ///s
 
 void chama_mecha(){
+    ///var
     int y_mary, x_mary;
-    coord_random(&y_mary, &x_mary);
+    char jhon = 1;
+    int y_jhon, x_jhon;
+    ///code
+
+
+    ///calls
+    //system("pause");
+    print_mary(&y_mary, &x_mary);
+   // system("pause");
+    print_jhon(&y_jhon, &x_jhon);
+    //system("pause");
     //printf("\n\n%d %d\n\n", y_mary, x_mary);
     gotoxy(altura/2, largura/2); //volta
-    //printf("aqui vem as func de...");
+    printf("\n");
+    //system("pause");
+
+
+
+
     }
 
-    void coord_random(int *y_rand, int *x_rand){ char mary = 2;
+
+
+   void print_jhon(int *y_jhon, int *x_jhon){
+    char jhon = 1;
+    *x_jhon = altura/2;
+    *y_jhon = largura/2;
+    gotoxy(*y_jhon, *x_jhon);
+    printf("%c", jhon);
+   }
+
+
+    void print_mary(int *y_rand, int *x_rand){
+    char mary = 2;
     srand(time(NULL));
     *y_rand = rand() % 49 + 1;
     *x_rand = rand() % 99 + 1;
@@ -42,50 +71,3 @@ void gotoxy(int x, int y) {
 
 }
 
-/*
-void gotoxy(int x, int y) {
-    COORD coord;  // Estrutura que representa uma coordenada no console
-    coord.X = x;
-    coord.Y = y;
-    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
-    // Define a posição do cursor na tela
-}
-
-
-
-
-
-void teto_cha1(){
-    int teto = 0, muro = 0;
-for (int i = 0; i <= largura; i++)
-    {
-        gotoxy(teto, muro);
-        printf("#");
-        Sleep(1000/1000);
-        teto++;
-    }
-
- for (int i = 0; i <= altura; i++)
- {
-
-
-     gotoxy(teto, muro);
-        printf("#");
-        Sleep(1000/1000);
-        muro++; // Incrementa a posição do teto a cada iteração
-
-
- }
-
-
-
-
-//exemplo de função que sobrescreve com gotoxy
-
-
-
-
-
-
- }
-*/

@@ -44,7 +44,7 @@ system("pause");
 void primeira_chamada(char I_G[altura][largura]){
 
     board(I_G);
-    primeira_position(I_G);
+
     imprimir_tabuleiro(I_G);
 
 }
@@ -70,11 +70,7 @@ int board(char I_G[altura][largura]) {
 }
 
 
-void primeira_position(char I_G[altura][largura])// so será usada 1 vez
-{
 
-    I_G[altura/2][largura/2] = 1;
-}
 
 
 void imprimir_tabuleiro(char I_G[altura][largura]) {
